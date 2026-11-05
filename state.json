@@ -7,9 +7,9 @@
   "BTCUSDT|H4|89": true,
   "ETHUSDT|H1|34": true,
   "ZECUSDT|H1|34": true,
-  "ZECUSDT|H1|89": false,
+  "ZECUSDT|H1|89": true,
   "ZECUSDT|H4|34": false,
-  "ZECUSDT|H4|89": true
+  "ZECUSDT|H4|89": false
  },
  "symbols": [
   "BTCUSDT",
