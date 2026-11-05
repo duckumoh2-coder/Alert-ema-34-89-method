@@ -1,5 +1,9 @@
 {
- "armed": {},
+ "armed": {
+  "BNBUSDT|H1|34": false,
+  "BTCUSDT|H1|34": false,
+  "ETHUSDT|H1|34": false
+ },
  "symbols": [
   "BTCUSDT",
   "ETHUSDT",
