@@ -114,9 +114,12 @@ def main():
         except Exception as e:
             errors.append(f"{sym}: {e}")
             print(f"Lỗi {sym}: {e}", file=sys.stderr)
+    err_txt = ("\n⚠️ Không đọc được: " + "; ".join(errors)) if errors else ""
     if first_run:
-        send("✅ Bot cảnh báo EMA 34/89 (H1, H4) đã chạy.\nĐang theo dõi: " + ", ".join(SYMBOLS)
-             + (("\n⚠️ Lỗi: " + "; ".join(errors)) if errors else ""))
+        send("✅ Bot cảnh báo EMA 34/89 (H1, H4) đã chạy.\nĐang theo dõi: " + ", ".join(SYMBOLS) + err_txt)
+    elif st.get("symbols") != SYMBOLS:
+        send("🔄 Đã cập nhật danh sách theo dõi (" + str(len(SYMBOLS)) + " cặp):\n" + ", ".join(SYMBOLS) + err_txt)
+    st["symbols"] = SYMBOLS
     if alerts:
         send("📈 Giá chạm EMA\n" + "\n".join(alerts))
     save_state(st)
