@@ -1,3 +1,10 @@
 {
- "armed": {}
+ "armed": {},
+ "symbols": [
+  "BTCUSDT",
+  "ETHUSDT",
+  "PAXGUSDT",
+  "BNBUSDT",
+  "ZECUSDT"
+ ]
 }
