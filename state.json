@@ -1,8 +1,12 @@
 {
  "armed": {
   "BNBUSDT|H1|34": false,
+  "BNBUSDT|H1|89": false,
+  "BNBUSDT|H4|34": false,
   "BTCUSDT|H1|34": false,
-  "ETHUSDT|H1|34": false
+  "BTCUSDT|H4|89": false,
+  "ETHUSDT|H1|34": false,
+  "ZECUSDT|H1|34": false
  },
  "symbols": [
   "BTCUSDT",
