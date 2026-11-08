@@ -1,14 +1,16 @@
 {
  "armed": {
   "AMDBUSDT|H1|34": false,
+  "AMDBUSDT|H1|89": false,
   "BNBUSDT|H1|34": true,
   "BNBUSDT|H1|89": true,
   "BNBUSDT|H4|34": true,
   "BTCUSDT|H1|34": false,
   "BTCUSDT|H4|89": true,
   "ETHUSDT|H1|34": true,
-  "INTCBUSDT|H1|34": false,
-  "NVDABUSDT|H1|34": true,
+  "INTCBUSDT|H1|34": true,
+  "INTCBUSDT|H1|89": false,
+  "NVDABUSDT|H1|34": false,
   "PAXGUSDT|H1|34": false,
   "PAXGUSDT|H1|89": false,
   "ZECUSDT|H1|34": false,
