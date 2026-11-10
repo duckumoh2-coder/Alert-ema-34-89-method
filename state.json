@@ -11,7 +11,7 @@
   "ETHUSDT|H1|34": true,
   "INTCBUSDT|H1|34": true,
   "INTCBUSDT|H1|89": true,
-  "NVDABUSDT|H1|34": true,
+  "NVDABUSDT|H1|34": false,
   "PAXGUSDT|H1|34": true,
   "PAXGUSDT|H1|89": true,
   "PAXGUSDT|H4|34": true,
