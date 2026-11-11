@@ -13,7 +13,7 @@
   "INTCBUSDT|H1|89": true,
   "INTCBUSDT|H4|34": true,
   "NVDABUSDT|H1|34": true,
-  "PAXGUSDT|H1|34": true,
+  "PAXGUSDT|H1|34": false,
   "PAXGUSDT|H1|89": true,
   "PAXGUSDT|H4|34": true,
   "PAXGUSDT|H4|89": false,
