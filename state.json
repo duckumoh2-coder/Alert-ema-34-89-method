@@ -1,6 +1,6 @@
 {
  "armed": {
-  "AMDBUSDT|H1|34": false,
+  "AMDBUSDT|H1|34": true,
   "AMDBUSDT|H1|89": true,
   "AMDBUSDT|H4|34": true,
   "BNBUSDT|H1|34": true,
@@ -10,7 +10,7 @@
   "BTCUSDT|H1|89": true,
   "BTCUSDT|H4|89": true,
   "ETHUSDT|H1|34": true,
-  "INTCBUSDT|H1|34": true,
+  "INTCBUSDT|H1|34": false,
   "INTCBUSDT|H1|89": true,
   "INTCBUSDT|H4|34": true,
   "NVDABUSDT|H1|34": true,
